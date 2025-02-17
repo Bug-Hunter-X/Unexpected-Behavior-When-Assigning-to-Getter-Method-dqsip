@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to how instance variables are modified.  The example shows that directly assigning a value to a getter method does not update the underlying instance variable. This unexpected behavior can be easily overlooked and lead to difficult-to-debug issues. The solution illustrates how to correctly modify the instance variable.
